@@ -6,11 +6,11 @@
     "name": "space-keeper",
     "email": "space-keeper@workbuddy.local"
   },
-  "agents": ["./agents/space-keeper.md"],
-
+  "agents": [
+    "./agents/space-keeper.md"
+  ],
   "expertType": "agent",
   "agentName": "space-keeper",
-
   "displayName": {
     "en": "space-keeper",
     "zh": "空间管家"
@@ -21,19 +21,28 @@
   },
   "displayDescription": {
     "en": "Dual-platform (macOS + Windows) space steward: scan temp files and app caches, generate a visual space analysis report, clean only what you confirm — never over-delete.",
-    "zh": "Mac/Windows 双平台空间管家：扫描临时文件与应用缓存、生成可视化空间分析报告、经你确认后再清理，绝不误删影响使用的缓存"
+    "zh": "双平台磁盘空间管家：扫描临时文件与应用缓存，出可视化空间报告，确认后清理，绝不误删"
   },
   "avatar": "avatars/expert.png",
   "categoryId": "02-Engineering",
   "defaultInitPrompt": {
-    "zh": "帮我看看电脑里临时文件和各应用的缓存占了多少空间，出一份分析报告，再按我的确认清理",
+    "zh": "扫一下临时文件和应用缓存，出一份空间占用报告",
     "en": "Scan my temp files and app caches, show me how much space they take, generate an analysis report, and clean up only what I confirm"
   },
   "plugin": "space-keeper",
   "tags": [
-    { "en": "Disk Space Analysis", "zh": "磁盘空间分析" },
-    { "en": "Temp & Cache Cleanup", "zh": "临时文件与缓存清理" },
-    { "en": "Cross-Platform macOS & Windows", "zh": "Mac 与 Windows 双平台" }
+    {
+      "en": "Disk Space Analysis",
+      "zh": "磁盘空间分析"
+    },
+    {
+      "en": "Temp & Cache Cleanup",
+      "zh": "临时文件与缓存清理"
+    },
+    {
+      "en": "Cross-Platform macOS & Windows",
+      "zh": "Mac 与 Windows 双平台"
+    }
   ],
   "quickPrompts": [
     {
