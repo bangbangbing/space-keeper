@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+*.swp
+
+# 打包产物
+*.zip
+space-keeper.zip
+
+# 日志 / 临时
+*.log
+tmp/
+
+# 忽略 kyxcdoc.md
+kyxcdoc.md
